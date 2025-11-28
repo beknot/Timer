@@ -1,0 +1,32 @@
+.demo, .h {
+  text-align: center;
+  font-size: 60px;
+}
+.h {
+  color:#ee1221;
+}
+.timer-input {
+  text-align: center; 
+  margin-top: 30px;
+  font-size: 18px;
+}
+.mm-dd-yyyy {
+  color:#12ee21;
+}
+.hh-mm-ss {
+  color:#1212ee;
+}
+input[type="text"] {
+  padding: 10px; 
+  width: 300px; 
+  font-size:18px;
+}
+.start-timer {
+  padding: 10px 20px; 
+  font-size:18px;
+}
+.error {
+  color:red; 
+  font-size: 20px; 
+  height: 30px;
+}
