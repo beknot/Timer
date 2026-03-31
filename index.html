@@ -1,23 +1,28 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <link href="style.css" rel="stylesheet">
+      <meta charset="UTF-8">
+      <title>Countdown Timer</title>
+      <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <div class="timer-wrapper">
-      <h3 id="h" class="h">Time till <span class="mm-dd-yyyy">Dec 31, 2025</span> <span class="hh-mm-ss">23:59:59</span></h3>
+      <div class="timer-wrapper" data-timer="Dec 31, 2026 23:59:59">
+          <h3 id="h" class="h">
+              Time till <span class="mm-dd-yyyy">Dec 31, 2026</span> 
+              <span class="hh-mm-ss">23:59:59</span>
+          </h3>
 
-      <p id="demo" class="demo"></p>
+          <p id="demo" class="demo"></p>
 
-      <!-- NEW INPUT FIELD + BUTTON + ERROR MESSAGE -->
-      <div class="timer-input">
-        <p class="enter-label">Enter format as yyyy-mm-dd hh:mm:ss (24hr format)</p>
-        <input id="dateInput" type="text" placeholder="yyyy-mm-dd hh:mm:ss">
-        <button onclick="updateCountdown()" class="start-timer">Start Timer</button>
-        <p id="error" class="error"></p>
+          <!-- NEW INPUT FIELD + BUTTON + ERROR MESSAGE -->
+          <div class="timer-input">
+              <p class="enter-label">Enter format as yyyy-mm-dd hh:mm:ss (24hr format)</p>
+              <input id="dateInput" type="text" placeholder="yyyy-mm-dd hh:mm:ss">
+              <button onclick="updateCountdown()" class="start-timer">Start Timer</button>
+              <p id="error" class="error"></p>
+          </div>
       </div>
-    </div>
 
-    <script src="script.js"></script>
+      <script src="script.js"></script>
   </body>
 </html>
